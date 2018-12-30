@@ -1,0 +1,44 @@
+.App {
+  width: 60%;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  margin-top: 5em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro {
+  margin: 1rem auto;
+  font-size: 1.8rem;
+}
+
+.button {
+  margin: 0.5rem;
+  width: 10rem;
+}
+
+.link {
+  margin: 1rem;
+}
+
+.section {
+  margin-bottom: 4rem;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-flow: wrap;
+}
+
+.project {
+  width: calc(50% - 1.1rem);
+  margin: 0.5rem;
+  /* box-sizing: border-box; */
+}
