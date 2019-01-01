@@ -43,6 +43,11 @@
   /* box-sizing: border-box; */
 }
 
+footer {
+  /* background-color: #666666; */
+  text-align: center;
+}
+
 
 
 @media only screen and (max-width: 1668px) {
